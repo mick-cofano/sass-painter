@@ -1,1 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+i {
+  vertical-align: middle;
+}
+
+header {
+  background-color: black;
+  padding: 0 12px;
+  padding-top: 10px;
+}
+header .top {
+  text-align: right;
+}
+header .top ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+header .top ul li {
+  padding: 0 15px;
+  padding-bottom: 10px;
+}
+header .top ul li a {
+  transition: all 0.5s;
+  font-size: 13px;
+  color: #6d6e6c;
+}
+header .top ul li a i {
+  color: #009CFF;
+  vertical-align: middle;
+  margin: 0 5px;
+}
+header .top ul li option {
+  font-size: 13px;
+}
+header .top ul li:hover a {
+  text-decoration: underline;
+  color: white;
+}
+header .top ul li a {
+  transition: all 0.5s;
+  font-size: 13px;
+  color: #6d6e6c;
+}
+header .top ul li a i {
+  color: #009CFF;
+  vertical-align: middle;
+  margin: 0 5px;
+}
+header .top ul li option {
+  font-size: 13px;
+}
+header .top ul li:hover a {
+  text-decoration: underline;
+  color: white;
+}
+header .bottom {
+  display: flex;
+  align-items: center;
+}
+header .bottom img {
+  height: 24px;
+  margin-right: 20px;
+}
+header .bottom ul {
+  display: flex;
+  align-items: center;
+}
+header .bottom ul li {
+  cursor: pointer;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 20px;
+  transition: all 0.5s;
+}
+header .bottom ul li a {
+  font-size: 14px;
+  color: white;
+  transition: all 0.5s;
+}
+header .bottom ul li a i {
+  font-size: 10px;
+  padding: 0 5px;
+  color: #6d6e6c;
+}
+header .bottom ul li:hover {
+  background-color: #F6F6F6;
+}
+header .bottom ul li:hover a {
+  color: black;
+}
